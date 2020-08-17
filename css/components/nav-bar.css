@@ -32,3 +32,13 @@ nav {
   left: 15px;
   bottom: 15px;
 }
+
+.nav__update {
+  height: 8px;
+  width: 8px;
+  border-radius: 4px;
+  background-color: tomato;
+  position: absolute;
+  left: 30px;
+  top: -15px;
+}
