@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
+  padding: 35px 25px 25px 25px;
   margin-bottom: 15px;
   top: 10px;
+  background-color: white;
 }
 
 .screen-header__title {
@@ -27,8 +28,4 @@
 
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
-}
-
-.screen-header {
-  z-index: 1;
 }
