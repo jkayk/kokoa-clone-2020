@@ -2,6 +2,19 @@
   margin-top: 35px;
 }
 
+.icon-row__icon:hover {
+  animation: iconYellow 0.8s ease-in-out forwards;
+}
+
+@keyframes iconYellow {
+  from {
+    transform: none;
+  }
+  to {
+    color: var(--yellow);
+  }
+}
+
 .more-suggestions {
   margin-top: 50px;
   border-top: var(--main-border);

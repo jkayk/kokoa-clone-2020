@@ -7,10 +7,40 @@
   justify-content: space-between;
 }
 
-.settings__setting i {
+.settings__setting .fa-bullhorn {
+  margin-right: 15px;
+}
+
+.settings__setting .fa-flask,
+.settings__setting .fa-info-circle {
   margin-right: 20px;
+}
+
+.settings__setting i {
   font-size: 22px;
   opacity: 0.8;
+}
+
+.settings__setting i:hover {
+  animation: iconTurn 1s ease-in-out infinite;
+}
+
+@keyframes iconTurn {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotateZ(-20deg);
+  }
+  75% {
+    transform: rotateZ(10deg);
+  }
+  100% {
+    transform: none;
+  }
 }
 
 .settings__setting__column:last-child {
